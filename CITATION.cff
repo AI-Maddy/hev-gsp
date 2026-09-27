@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this dataset or simulator, please cite it as below."
+title: "HEV-GSP: a multilayer graph-signal dataset from a power-split hybrid vehicle model with an AUTOSAR zonal E/E layer"
+type: dataset
+authors:
+  - family-names: Vivekanandan
+    given-names: Madhavan
+version: 1.0.0
+date-released: 2026-09-27
+keywords: [graph signal processing, hybrid electric vehicle, AUTOSAR, CAN FD, fault detection, dataset]

@@ -1,0 +1,36 @@
+{
+  "levels/correlation": {
+    "AUPRC": 0.35189042388831937,
+    "AUROC": 0.7281881956016375
+  },
+  "levels/partial_corr_LW": {
+    "AUPRC": 0.4860115560897777,
+    "AUROC": 0.7792486988006336
+  },
+  "levels/graphical_lasso": {
+    "AUPRC": 0.5195171665534617,
+    "AUROC": 0.8069287580489211
+  },
+  "levels/smoothness_Kalofolias": {
+    "AUPRC": 0.37530390385479356,
+    "AUROC": 0.684256001974943
+  },
+  "differences/correlation": {
+    "AUPRC": 0.35518982388396647,
+    "AUROC": 0.6940895718899792
+  },
+  "differences/partial_corr_LW": {
+    "AUPRC": 0.4102678712171423,
+    "AUROC": 0.6851714703038532
+  },
+  "differences/graphical_lasso": {
+    "AUPRC": 0.2103206837307929,
+    "AUROC": 0.5683669690798001
+  },
+  "differences/smoothness_Kalofolias": {
+    "AUPRC": 0.3240277626892987,
+    "AUROC": 0.6004340759941574
+  },
+  "chance_AUPRC": 0.09158186864014801,
+  "best": "levels/graphical_lasso"
+}

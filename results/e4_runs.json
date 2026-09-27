@@ -1,0 +1,3608 @@
+{
+ "detection": [
+  {
+   "run": "bat_resistance",
+   "severity": 0.5,
+   "method": "zscore",
+   "delay_s": 321.20001220703125,
+   "detected": true
+  },
+  {
+   "run": "bat_resistance",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "delay_s": 602.6000366210938,
+   "detected": true
+  },
+  {
+   "run": "bat_resistance",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "delay_s": 321.20001220703125,
+   "detected": true
+  },
+  {
+   "run": "bat_resistance",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "delay_s": 76.60000610351562,
+   "detected": true
+  },
+  {
+   "run": "bat_resistance",
+   "severity": 0.5,
+   "method": "zscore",
+   "delay_s": 0.0,
+   "detected": true
+  },
+  {
+   "run": "bat_resistance",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "bat_resistance",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "delay_s": 0.0,
+   "detected": true
+  },
+  {
+   "run": "bat_resistance",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "delay_s": 498.0,
+   "detected": true
+  },
+  {
+   "run": "bat_resistance",
+   "severity": 1.0,
+   "method": "zscore",
+   "delay_s": 264.9000244140625,
+   "detected": true
+  },
+  {
+   "run": "bat_resistance",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "bat_resistance",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "delay_s": 565.7999877929688,
+   "detected": true
+  },
+  {
+   "run": "bat_resistance",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "delay_s": 799.9000244140625,
+   "detected": true
+  },
+  {
+   "run": "bat_resistance",
+   "severity": 1.0,
+   "method": "zscore",
+   "delay_s": 95.79998779296875,
+   "detected": true
+  },
+  {
+   "run": "bat_resistance",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "delay_s": 70.29998779296875,
+   "detected": true
+  },
+  {
+   "run": "bat_resistance",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "delay_s": 96.10000610351562,
+   "detected": true
+  },
+  {
+   "run": "bat_resistance",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "delay_s": 67.5,
+   "detected": true
+  },
+  {
+   "run": "brake_drag_F",
+   "severity": 0.5,
+   "method": "zscore",
+   "delay_s": 339.6000061035156,
+   "detected": true
+  },
+  {
+   "run": "brake_drag_F",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "delay_s": 264.6999816894531,
+   "detected": true
+  },
+  {
+   "run": "brake_drag_F",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "brake_drag_F",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "brake_drag_F",
+   "severity": 0.5,
+   "method": "zscore",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "brake_drag_F",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "delay_s": 105.5,
+   "detected": true
+  },
+  {
+   "run": "brake_drag_F",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "delay_s": 663.0,
+   "detected": true
+  },
+  {
+   "run": "brake_drag_F",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "delay_s": 662.5,
+   "detected": true
+  },
+  {
+   "run": "brake_drag_F",
+   "severity": 1.0,
+   "method": "zscore",
+   "delay_s": 234.89999389648438,
+   "detected": true
+  },
+  {
+   "run": "brake_drag_F",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "delay_s": 208.19998168945312,
+   "detected": true
+  },
+  {
+   "run": "brake_drag_F",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "delay_s": 235.60000610351562,
+   "detected": true
+  },
+  {
+   "run": "brake_drag_F",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "delay_s": 255.89999389648438,
+   "detected": true
+  },
+  {
+   "run": "brake_drag_F",
+   "severity": 1.0,
+   "method": "zscore",
+   "delay_s": 520.300048828125,
+   "detected": true
+  },
+  {
+   "run": "brake_drag_F",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "delay_s": 109.60000610351562,
+   "detected": true
+  },
+  {
+   "run": "brake_drag_F",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "delay_s": 454.8999938964844,
+   "detected": true
+  },
+  {
+   "run": "brake_drag_F",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "delay_s": 452.1000061035156,
+   "detected": true
+  },
+  {
+   "run": "damper_RR",
+   "severity": 0.5,
+   "method": "zscore",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "damper_RR",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "delay_s": 213.20001220703125,
+   "detected": true
+  },
+  {
+   "run": "damper_RR",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "delay_s": 214.9000244140625,
+   "detected": true
+  },
+  {
+   "run": "damper_RR",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "damper_RR",
+   "severity": 0.5,
+   "method": "zscore",
+   "delay_s": 16.20001220703125,
+   "detected": true
+  },
+  {
+   "run": "damper_RR",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "delay_s": 88.29998779296875,
+   "detected": true
+  },
+  {
+   "run": "damper_RR",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "delay_s": 16.5,
+   "detected": true
+  },
+  {
+   "run": "damper_RR",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "delay_s": 18.399993896484375,
+   "detected": true
+  },
+  {
+   "run": "damper_RR",
+   "severity": 1.0,
+   "method": "zscore",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "damper_RR",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "damper_RR",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "damper_RR",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "damper_RR",
+   "severity": 1.0,
+   "method": "zscore",
+   "delay_s": 90.29998779296875,
+   "detected": true
+  },
+  {
+   "run": "damper_RR",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "delay_s": 679.9000244140625,
+   "detected": true
+  },
+  {
+   "run": "damper_RR",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "delay_s": 90.60000610351562,
+   "detected": true
+  },
+  {
+   "run": "damper_RR",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "delay_s": 679.5999755859375,
+   "detected": true
+  },
+  {
+   "run": "dcdc_degradation",
+   "severity": 0.5,
+   "method": "zscore",
+   "delay_s": 30.29998779296875,
+   "detected": true
+  },
+  {
+   "run": "dcdc_degradation",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "delay_s": 11.100006103515625,
+   "detected": true
+  },
+  {
+   "run": "dcdc_degradation",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "delay_s": 10.5,
+   "detected": true
+  },
+  {
+   "run": "dcdc_degradation",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "delay_s": 10.0,
+   "detected": true
+  },
+  {
+   "run": "dcdc_degradation",
+   "severity": 0.5,
+   "method": "zscore",
+   "delay_s": 26.800018310546875,
+   "detected": true
+  },
+  {
+   "run": "dcdc_degradation",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "delay_s": 11.70001220703125,
+   "detected": true
+  },
+  {
+   "run": "dcdc_degradation",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "delay_s": 10.4000244140625,
+   "detected": true
+  },
+  {
+   "run": "dcdc_degradation",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "delay_s": 10.70001220703125,
+   "detected": true
+  },
+  {
+   "run": "dcdc_degradation",
+   "severity": 1.0,
+   "method": "zscore",
+   "delay_s": 11.20001220703125,
+   "detected": true
+  },
+  {
+   "run": "dcdc_degradation",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "delay_s": 7.29998779296875,
+   "detected": true
+  },
+  {
+   "run": "dcdc_degradation",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "delay_s": 6.29998779296875,
+   "detected": true
+  },
+  {
+   "run": "dcdc_degradation",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "delay_s": 6.5,
+   "detected": true
+  },
+  {
+   "run": "dcdc_degradation",
+   "severity": 1.0,
+   "method": "zscore",
+   "delay_s": 12.800018310546875,
+   "detected": true
+  },
+  {
+   "run": "dcdc_degradation",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "delay_s": 7.5,
+   "detected": true
+  },
+  {
+   "run": "dcdc_degradation",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "delay_s": 6.100006103515625,
+   "detected": true
+  },
+  {
+   "run": "dcdc_degradation",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "delay_s": 6.399993896484375,
+   "detected": true
+  },
+  {
+   "run": "edu_pump",
+   "severity": 0.5,
+   "method": "zscore",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "edu_pump",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "edu_pump",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "edu_pump",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "edu_pump",
+   "severity": 0.5,
+   "method": "zscore",
+   "delay_s": 459.6000061035156,
+   "detected": true
+  },
+  {
+   "run": "edu_pump",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "edu_pump",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "delay_s": 459.6999816894531,
+   "detected": true
+  },
+  {
+   "run": "edu_pump",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "delay_s": 336.1000061035156,
+   "detected": true
+  },
+  {
+   "run": "edu_pump",
+   "severity": 1.0,
+   "method": "zscore",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "edu_pump",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "edu_pump",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "edu_pump",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "edu_pump",
+   "severity": 1.0,
+   "method": "zscore",
+   "delay_s": 250.5999755859375,
+   "detected": true
+  },
+  {
+   "run": "edu_pump",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "delay_s": 248.0999755859375,
+   "detected": true
+  },
+  {
+   "run": "edu_pump",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "delay_s": 249.29998779296875,
+   "detected": true
+  },
+  {
+   "run": "edu_pump",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "delay_s": 247.9000244140625,
+   "detected": true
+  },
+  {
+   "run": "ee_babbling_ESC",
+   "severity": 0.5,
+   "method": "zscore",
+   "delay_s": 0.399993896484375,
+   "detected": true
+  },
+  {
+   "run": "ee_babbling_ESC",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "delay_s": 1.0999755859375,
+   "detected": true
+  },
+  {
+   "run": "ee_babbling_ESC",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "delay_s": 0.29998779296875,
+   "detected": true
+  },
+  {
+   "run": "ee_babbling_ESC",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "delay_s": 0.399993896484375,
+   "detected": true
+  },
+  {
+   "run": "ee_babbling_ESC",
+   "severity": 0.5,
+   "method": "zscore",
+   "delay_s": 0.399993896484375,
+   "detected": true
+  },
+  {
+   "run": "ee_babbling_ESC",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "delay_s": 1.199981689453125,
+   "detected": true
+  },
+  {
+   "run": "ee_babbling_ESC",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "delay_s": 0.29998779296875,
+   "detected": true
+  },
+  {
+   "run": "ee_babbling_ESC",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "delay_s": 0.399993896484375,
+   "detected": true
+  },
+  {
+   "run": "ee_babbling_ESC",
+   "severity": 1.0,
+   "method": "zscore",
+   "delay_s": 0.0,
+   "detected": true
+  },
+  {
+   "run": "ee_babbling_ESC",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "delay_s": 0.600006103515625,
+   "detected": true
+  },
+  {
+   "run": "ee_babbling_ESC",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "delay_s": 0.100006103515625,
+   "detected": true
+  },
+  {
+   "run": "ee_babbling_ESC",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "delay_s": 0.100006103515625,
+   "detected": true
+  },
+  {
+   "run": "ee_babbling_ESC",
+   "severity": 1.0,
+   "method": "zscore",
+   "delay_s": 0.100006103515625,
+   "detected": true
+  },
+  {
+   "run": "ee_babbling_ESC",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "delay_s": 0.70001220703125,
+   "detected": true
+  },
+  {
+   "run": "ee_babbling_ESC",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "delay_s": 0.20001220703125,
+   "detected": true
+  },
+  {
+   "run": "ee_babbling_ESC",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "delay_s": 0.100006103515625,
+   "detected": true
+  },
+  {
+   "run": "ee_bms_overrun",
+   "severity": 0.5,
+   "method": "zscore",
+   "delay_s": 495.8999938964844,
+   "detected": true
+  },
+  {
+   "run": "ee_bms_overrun",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "delay_s": 201.50003051757812,
+   "detected": true
+  },
+  {
+   "run": "ee_bms_overrun",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "delay_s": 495.8000183105469,
+   "detected": true
+  },
+  {
+   "run": "ee_bms_overrun",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "delay_s": 229.50003051757812,
+   "detected": true
+  },
+  {
+   "run": "ee_bms_overrun",
+   "severity": 0.5,
+   "method": "zscore",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "ee_bms_overrun",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "ee_bms_overrun",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "ee_bms_overrun",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "ee_bms_overrun",
+   "severity": 1.0,
+   "method": "zscore",
+   "delay_s": 9.800018310546875,
+   "detected": true
+  },
+  {
+   "run": "ee_bms_overrun",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "delay_s": 821.2999267578125,
+   "detected": true
+  },
+  {
+   "run": "ee_bms_overrun",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "delay_s": 10.100006103515625,
+   "detected": true
+  },
+  {
+   "run": "ee_bms_overrun",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "delay_s": 9.70001220703125,
+   "detected": true
+  },
+  {
+   "run": "ee_bms_overrun",
+   "severity": 1.0,
+   "method": "zscore",
+   "delay_s": 9.70001220703125,
+   "detected": true
+  },
+  {
+   "run": "ee_bms_overrun",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "ee_bms_overrun",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "delay_s": 11.300018310546875,
+   "detected": true
+  },
+  {
+   "run": "ee_bms_overrun",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "delay_s": 9.300018310546875,
+   "detected": true
+  },
+  {
+   "run": "ee_zonal_overload",
+   "severity": 0.5,
+   "method": "zscore",
+   "delay_s": 180.20001220703125,
+   "detected": true
+  },
+  {
+   "run": "ee_zonal_overload",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "ee_zonal_overload",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "delay_s": 183.0,
+   "detected": true
+  },
+  {
+   "run": "ee_zonal_overload",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "delay_s": 119.70001220703125,
+   "detected": true
+  },
+  {
+   "run": "ee_zonal_overload",
+   "severity": 0.5,
+   "method": "zscore",
+   "delay_s": 257.5,
+   "detected": true
+  },
+  {
+   "run": "ee_zonal_overload",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "ee_zonal_overload",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "delay_s": 258.0,
+   "detected": true
+  },
+  {
+   "run": "ee_zonal_overload",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "delay_s": 49.0,
+   "detected": true
+  },
+  {
+   "run": "ee_zonal_overload",
+   "severity": 1.0,
+   "method": "zscore",
+   "delay_s": 15.5,
+   "detected": true
+  },
+  {
+   "run": "ee_zonal_overload",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "delay_s": 89.70001220703125,
+   "detected": true
+  },
+  {
+   "run": "ee_zonal_overload",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "delay_s": 17.20001220703125,
+   "detected": true
+  },
+  {
+   "run": "ee_zonal_overload",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "delay_s": 14.79998779296875,
+   "detected": true
+  },
+  {
+   "run": "ee_zonal_overload",
+   "severity": 1.0,
+   "method": "zscore",
+   "delay_s": 14.100006103515625,
+   "detected": true
+  },
+  {
+   "run": "ee_zonal_overload",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "delay_s": 226.49996948242188,
+   "detected": true
+  },
+  {
+   "run": "ee_zonal_overload",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "delay_s": 14.899993896484375,
+   "detected": true
+  },
+  {
+   "run": "ee_zonal_overload",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "delay_s": 13.699981689453125,
+   "detected": true
+  },
+  {
+   "run": "mg2_winding",
+   "severity": 0.5,
+   "method": "zscore",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "mg2_winding",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "mg2_winding",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "mg2_winding",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "mg2_winding",
+   "severity": 0.5,
+   "method": "zscore",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "mg2_winding",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "mg2_winding",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "mg2_winding",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "mg2_winding",
+   "severity": 1.0,
+   "method": "zscore",
+   "delay_s": 323.1000061035156,
+   "detected": true
+  },
+  {
+   "run": "mg2_winding",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "delay_s": 321.5000305175781,
+   "detected": true
+  },
+  {
+   "run": "mg2_winding",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "delay_s": 322.3000183105469,
+   "detected": true
+  },
+  {
+   "run": "mg2_winding",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "delay_s": 321.3000183105469,
+   "detected": true
+  },
+  {
+   "run": "mg2_winding",
+   "severity": 1.0,
+   "method": "zscore",
+   "delay_s": 377.4000244140625,
+   "detected": true
+  },
+  {
+   "run": "mg2_winding",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "delay_s": 565.5999755859375,
+   "detected": true
+  },
+  {
+   "run": "mg2_winding",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "delay_s": 377.70001220703125,
+   "detected": true
+  },
+  {
+   "run": "mg2_winding",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "delay_s": 379.70001220703125,
+   "detected": true
+  },
+  {
+   "run": "misfire",
+   "severity": 0.5,
+   "method": "zscore",
+   "delay_s": 43.199981689453125,
+   "detected": true
+  },
+  {
+   "run": "misfire",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "delay_s": 43.899993896484375,
+   "detected": true
+  },
+  {
+   "run": "misfire",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "delay_s": 43.0999755859375,
+   "detected": true
+  },
+  {
+   "run": "misfire",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "delay_s": 43.29998779296875,
+   "detected": true
+  },
+  {
+   "run": "misfire",
+   "severity": 0.5,
+   "method": "zscore",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "misfire",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "delay_s": 748.300048828125,
+   "detected": true
+  },
+  {
+   "run": "misfire",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "misfire",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "misfire",
+   "severity": 1.0,
+   "method": "zscore",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "misfire",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "delay_s": 65.60000610351562,
+   "detected": true
+  },
+  {
+   "run": "misfire",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "delay_s": 67.60000610351562,
+   "detected": true
+  },
+  {
+   "run": "misfire",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "delay_s": 65.10000610351562,
+   "detected": true
+  },
+  {
+   "run": "misfire",
+   "severity": 1.0,
+   "method": "zscore",
+   "delay_s": 60.79998779296875,
+   "detected": true
+  },
+  {
+   "run": "misfire",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "delay_s": 126.79998779296875,
+   "detected": true
+  },
+  {
+   "run": "misfire",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "delay_s": 61.0,
+   "detected": true
+  },
+  {
+   "run": "misfire",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "delay_s": 62.0,
+   "detected": true
+  },
+  {
+   "run": "sens_bias_yaw",
+   "severity": 0.5,
+   "method": "zscore",
+   "delay_s": 67.0,
+   "detected": true
+  },
+  {
+   "run": "sens_bias_yaw",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "delay_s": 401.5,
+   "detected": true
+  },
+  {
+   "run": "sens_bias_yaw",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "delay_s": 67.39999389648438,
+   "detected": true
+  },
+  {
+   "run": "sens_bias_yaw",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "delay_s": 69.0,
+   "detected": true
+  },
+  {
+   "run": "sens_bias_yaw",
+   "severity": 0.5,
+   "method": "zscore",
+   "delay_s": 360.8000183105469,
+   "detected": true
+  },
+  {
+   "run": "sens_bias_yaw",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "delay_s": 364.1000061035156,
+   "detected": true
+  },
+  {
+   "run": "sens_bias_yaw",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "delay_s": 360.8999938964844,
+   "detected": true
+  },
+  {
+   "run": "sens_bias_yaw",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "delay_s": 362.3999938964844,
+   "detected": true
+  },
+  {
+   "run": "sens_bias_yaw",
+   "severity": 1.0,
+   "method": "zscore",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "sens_bias_yaw",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "delay_s": 574.300048828125,
+   "detected": true
+  },
+  {
+   "run": "sens_bias_yaw",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "sens_bias_yaw",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "delay_s": 324.4999694824219,
+   "detected": true
+  },
+  {
+   "run": "sens_bias_yaw",
+   "severity": 1.0,
+   "method": "zscore",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "sens_bias_yaw",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "delay_s": 24.800018310546875,
+   "detected": true
+  },
+  {
+   "run": "sens_bias_yaw",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "sens_bias_yaw",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "delay_s": 26.100006103515625,
+   "detected": true
+  },
+  {
+   "run": "sens_noise_wFR",
+   "severity": 0.5,
+   "method": "zscore",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "sens_noise_wFR",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "delay_s": 55.100006103515625,
+   "detected": true
+  },
+  {
+   "run": "sens_noise_wFR",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "sens_noise_wFR",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "delay_s": 24.600006103515625,
+   "detected": true
+  },
+  {
+   "run": "sens_noise_wFR",
+   "severity": 0.5,
+   "method": "zscore",
+   "delay_s": 176.10000610351562,
+   "detected": true
+  },
+  {
+   "run": "sens_noise_wFR",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "sens_noise_wFR",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "delay_s": 39.29998779296875,
+   "detected": true
+  },
+  {
+   "run": "sens_noise_wFR",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "delay_s": 4.399993896484375,
+   "detected": true
+  },
+  {
+   "run": "sens_noise_wFR",
+   "severity": 1.0,
+   "method": "zscore",
+   "delay_s": 479.79998779296875,
+   "detected": true
+  },
+  {
+   "run": "sens_noise_wFR",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "delay_s": 85.10000610351562,
+   "detected": true
+  },
+  {
+   "run": "sens_noise_wFR",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "delay_s": 480.20001220703125,
+   "detected": true
+  },
+  {
+   "run": "sens_noise_wFR",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "delay_s": 14.600006103515625,
+   "detected": true
+  },
+  {
+   "run": "sens_noise_wFR",
+   "severity": 1.0,
+   "method": "zscore",
+   "delay_s": 54.800018310546875,
+   "detected": true
+  },
+  {
+   "run": "sens_noise_wFR",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "delay_s": 70.4000244140625,
+   "detected": true
+  },
+  {
+   "run": "sens_noise_wFR",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "delay_s": 55.20001220703125,
+   "detected": true
+  },
+  {
+   "run": "sens_noise_wFR",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "delay_s": 3.600006103515625,
+   "detected": true
+  },
+  {
+   "run": "sens_stuck_Tbatt",
+   "severity": 0.5,
+   "method": "zscore",
+   "delay_s": 325.0,
+   "detected": true
+  },
+  {
+   "run": "sens_stuck_Tbatt",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "delay_s": 326.89996337890625,
+   "detected": true
+  },
+  {
+   "run": "sens_stuck_Tbatt",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "delay_s": 325.5999755859375,
+   "detected": true
+  },
+  {
+   "run": "sens_stuck_Tbatt",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "delay_s": 326.0,
+   "detected": true
+  },
+  {
+   "run": "sens_stuck_Tbatt",
+   "severity": 0.5,
+   "method": "zscore",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "sens_stuck_Tbatt",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "delay_s": 104.20001220703125,
+   "detected": true
+  },
+  {
+   "run": "sens_stuck_Tbatt",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "delay_s": 106.5,
+   "detected": true
+  },
+  {
+   "run": "sens_stuck_Tbatt",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "delay_s": 104.0,
+   "detected": true
+  },
+  {
+   "run": "sens_stuck_Tbatt",
+   "severity": 1.0,
+   "method": "zscore",
+   "delay_s": 398.5,
+   "detected": true
+  },
+  {
+   "run": "sens_stuck_Tbatt",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "delay_s": 398.0,
+   "detected": true
+  },
+  {
+   "run": "sens_stuck_Tbatt",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "delay_s": 398.10003662109375,
+   "detected": true
+  },
+  {
+   "run": "sens_stuck_Tbatt",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "delay_s": 397.4000244140625,
+   "detected": true
+  },
+  {
+   "run": "sens_stuck_Tbatt",
+   "severity": 1.0,
+   "method": "zscore",
+   "delay_s": 370.5,
+   "detected": true
+  },
+  {
+   "run": "sens_stuck_Tbatt",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "delay_s": 395.20001220703125,
+   "detected": true
+  },
+  {
+   "run": "sens_stuck_Tbatt",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "delay_s": 371.29998779296875,
+   "detected": true
+  },
+  {
+   "run": "sens_stuck_Tbatt",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "delay_s": 395.0,
+   "detected": true
+  },
+  {
+   "run": "thermostat_stuck",
+   "severity": 0.5,
+   "method": "zscore",
+   "delay_s": 517.0,
+   "detected": true
+  },
+  {
+   "run": "thermostat_stuck",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "delay_s": 92.0,
+   "detected": true
+  },
+  {
+   "run": "thermostat_stuck",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "delay_s": 516.7000122070312,
+   "detected": true
+  },
+  {
+   "run": "thermostat_stuck",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "delay_s": 91.5,
+   "detected": true
+  },
+  {
+   "run": "thermostat_stuck",
+   "severity": 0.5,
+   "method": "zscore",
+   "delay_s": 24.5,
+   "detected": true
+  },
+  {
+   "run": "thermostat_stuck",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "delay_s": 24.600006103515625,
+   "detected": true
+  },
+  {
+   "run": "thermostat_stuck",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "delay_s": 24.300018310546875,
+   "detected": true
+  },
+  {
+   "run": "thermostat_stuck",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "delay_s": 24.20001220703125,
+   "detected": true
+  },
+  {
+   "run": "thermostat_stuck",
+   "severity": 1.0,
+   "method": "zscore",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "thermostat_stuck",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "thermostat_stuck",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "thermostat_stuck",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "thermostat_stuck",
+   "severity": 1.0,
+   "method": "zscore",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "thermostat_stuck",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "thermostat_stuck",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "thermostat_stuck",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "delay_s": NaN,
+   "detected": false
+  },
+  {
+   "run": "tire_leak_FL",
+   "severity": 0.5,
+   "method": "zscore",
+   "delay_s": 48.5,
+   "detected": true
+  },
+  {
+   "run": "tire_leak_FL",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "delay_s": 50.0999755859375,
+   "detected": true
+  },
+  {
+   "run": "tire_leak_FL",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "delay_s": 115.70001220703125,
+   "detected": true
+  },
+  {
+   "run": "tire_leak_FL",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "delay_s": 42.29998779296875,
+   "detected": true
+  },
+  {
+   "run": "tire_leak_FL",
+   "severity": 0.5,
+   "method": "zscore",
+   "delay_s": 373.0,
+   "detected": true
+  },
+  {
+   "run": "tire_leak_FL",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "delay_s": 52.699981689453125,
+   "detected": true
+  },
+  {
+   "run": "tire_leak_FL",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "delay_s": 103.29998779296875,
+   "detected": true
+  },
+  {
+   "run": "tire_leak_FL",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "delay_s": 41.79998779296875,
+   "detected": true
+  },
+  {
+   "run": "tire_leak_FL",
+   "severity": 1.0,
+   "method": "zscore",
+   "delay_s": 137.19998168945312,
+   "detected": true
+  },
+  {
+   "run": "tire_leak_FL",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "delay_s": 28.0,
+   "detected": true
+  },
+  {
+   "run": "tire_leak_FL",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "delay_s": 63.5,
+   "detected": true
+  },
+  {
+   "run": "tire_leak_FL",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "delay_s": 22.100006103515625,
+   "detected": true
+  },
+  {
+   "run": "tire_leak_FL",
+   "severity": 1.0,
+   "method": "zscore",
+   "delay_s": 114.69998168945312,
+   "detected": true
+  },
+  {
+   "run": "tire_leak_FL",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "delay_s": 27.600006103515625,
+   "detected": true
+  },
+  {
+   "run": "tire_leak_FL",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "delay_s": 63.199981689453125,
+   "detected": true
+  },
+  {
+   "run": "tire_leak_FL",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "delay_s": 18.600006103515625,
+   "detected": true
+  }
+ ],
+ "localization": [
+  {
+   "run": "bat_resistance",
+   "severity": 0.5,
+   "method": "zscore",
+   "top1": false,
+   "top3": true,
+   "predicted": "TCU"
+  },
+  {
+   "run": "bat_resistance",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "SOC"
+  },
+  {
+   "run": "bat_resistance",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_rad_out"
+  },
+  {
+   "run": "bat_resistance",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_batt"
+  },
+  {
+   "run": "bat_resistance",
+   "severity": 0.5,
+   "method": "zscore",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_rad_out"
+  },
+  {
+   "run": "bat_resistance",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "top1": false,
+   "top3": false,
+   "predicted": "body_acc_RL"
+  },
+  {
+   "run": "bat_resistance",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "top1": false,
+   "top3": true,
+   "predicted": "T_MG2"
+  },
+  {
+   "run": "bat_resistance",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_batt"
+  },
+  {
+   "run": "bat_resistance",
+   "severity": 1.0,
+   "method": "zscore",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_batt"
+  },
+  {
+   "run": "bat_resistance",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "V_batt"
+  },
+  {
+   "run": "bat_resistance",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "top1": true,
+   "top3": true,
+   "predicted": "V_batt"
+  },
+  {
+   "run": "bat_resistance",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "V_batt"
+  },
+  {
+   "run": "bat_resistance",
+   "severity": 1.0,
+   "method": "zscore",
+   "top1": true,
+   "top3": true,
+   "predicted": "V_batt"
+  },
+  {
+   "run": "bat_resistance",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "V_batt"
+  },
+  {
+   "run": "bat_resistance",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "top1": true,
+   "top3": true,
+   "predicted": "V_batt"
+  },
+  {
+   "run": "bat_resistance",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_batt"
+  },
+  {
+   "run": "brake_drag_F",
+   "severity": 0.5,
+   "method": "zscore",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_brake_F"
+  },
+  {
+   "run": "brake_drag_F",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_brake_F"
+  },
+  {
+   "run": "brake_drag_F",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_brake_F"
+  },
+  {
+   "run": "brake_drag_F",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_brake_F"
+  },
+  {
+   "run": "brake_drag_F",
+   "severity": 0.5,
+   "method": "zscore",
+   "top1": false,
+   "top3": false,
+   "predicted": "p_tire_FL"
+  },
+  {
+   "run": "brake_drag_F",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_brake_F"
+  },
+  {
+   "run": "brake_drag_F",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_brake_F"
+  },
+  {
+   "run": "brake_drag_F",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "top1": false,
+   "top3": false,
+   "predicted": "brake_pressure"
+  },
+  {
+   "run": "brake_drag_F",
+   "severity": 1.0,
+   "method": "zscore",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_brake_F"
+  },
+  {
+   "run": "brake_drag_F",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_brake_F"
+  },
+  {
+   "run": "brake_drag_F",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_brake_F"
+  },
+  {
+   "run": "brake_drag_F",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_brake_F"
+  },
+  {
+   "run": "brake_drag_F",
+   "severity": 1.0,
+   "method": "zscore",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_brake_F"
+  },
+  {
+   "run": "brake_drag_F",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_brake_F"
+  },
+  {
+   "run": "brake_drag_F",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_brake_F"
+  },
+  {
+   "run": "brake_drag_F",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_brake_F"
+  },
+  {
+   "run": "damper_RR",
+   "severity": 0.5,
+   "method": "zscore",
+   "top1": false,
+   "top3": false,
+   "predicted": "p_tire_FR"
+  },
+  {
+   "run": "damper_RR",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_brake_F"
+  },
+  {
+   "run": "damper_RR",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_cool_edu"
+  },
+  {
+   "run": "damper_RR",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_batt"
+  },
+  {
+   "run": "damper_RR",
+   "severity": 0.5,
+   "method": "zscore",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_rad_out"
+  },
+  {
+   "run": "damper_RR",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "top1": false,
+   "top3": false,
+   "predicted": "P_ac"
+  },
+  {
+   "run": "damper_RR",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_batt"
+  },
+  {
+   "run": "damper_RR",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_batt"
+  },
+  {
+   "run": "damper_RR",
+   "severity": 1.0,
+   "method": "zscore",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_MG2"
+  },
+  {
+   "run": "damper_RR",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "top1": false,
+   "top3": true,
+   "predicted": "a_lat"
+  },
+  {
+   "run": "damper_RR",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "top1": false,
+   "top3": false,
+   "predicted": "a_lat"
+  },
+  {
+   "run": "damper_RR",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "top1": false,
+   "top3": false,
+   "predicted": "fuel_rate"
+  },
+  {
+   "run": "damper_RR",
+   "severity": 1.0,
+   "method": "zscore",
+   "top1": false,
+   "top3": false,
+   "predicted": "SOC"
+  },
+  {
+   "run": "damper_RR",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "top1": false,
+   "top3": false,
+   "predicted": "I_dcdc"
+  },
+  {
+   "run": "damper_RR",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_batt"
+  },
+  {
+   "run": "damper_RR",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_batt"
+  },
+  {
+   "run": "dcdc_degradation",
+   "severity": 0.5,
+   "method": "zscore",
+   "top1": true,
+   "top3": true,
+   "predicted": "V_12"
+  },
+  {
+   "run": "dcdc_degradation",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "V_12"
+  },
+  {
+   "run": "dcdc_degradation",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "top1": true,
+   "top3": true,
+   "predicted": "I_dcdc"
+  },
+  {
+   "run": "dcdc_degradation",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "V_12"
+  },
+  {
+   "run": "dcdc_degradation",
+   "severity": 0.5,
+   "method": "zscore",
+   "top1": true,
+   "top3": true,
+   "predicted": "V_12"
+  },
+  {
+   "run": "dcdc_degradation",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "V_12"
+  },
+  {
+   "run": "dcdc_degradation",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "top1": true,
+   "top3": true,
+   "predicted": "I_dcdc"
+  },
+  {
+   "run": "dcdc_degradation",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "V_12"
+  },
+  {
+   "run": "dcdc_degradation",
+   "severity": 1.0,
+   "method": "zscore",
+   "top1": true,
+   "top3": true,
+   "predicted": "V_12"
+  },
+  {
+   "run": "dcdc_degradation",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "V_12"
+  },
+  {
+   "run": "dcdc_degradation",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "top1": true,
+   "top3": true,
+   "predicted": "I_dcdc"
+  },
+  {
+   "run": "dcdc_degradation",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "V_12"
+  },
+  {
+   "run": "dcdc_degradation",
+   "severity": 1.0,
+   "method": "zscore",
+   "top1": true,
+   "top3": true,
+   "predicted": "V_12"
+  },
+  {
+   "run": "dcdc_degradation",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "V_12"
+  },
+  {
+   "run": "dcdc_degradation",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "top1": true,
+   "top3": true,
+   "predicted": "V_12"
+  },
+  {
+   "run": "dcdc_degradation",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "V_12"
+  },
+  {
+   "run": "edu_pump",
+   "severity": 0.5,
+   "method": "zscore",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_MG1"
+  },
+  {
+   "run": "edu_pump",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_MG2"
+  },
+  {
+   "run": "edu_pump",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_cool_edu"
+  },
+  {
+   "run": "edu_pump",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_MG2"
+  },
+  {
+   "run": "edu_pump",
+   "severity": 0.5,
+   "method": "zscore",
+   "top1": false,
+   "top3": false,
+   "predicted": "n_eng"
+  },
+  {
+   "run": "edu_pump",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "top1": false,
+   "top3": true,
+   "predicted": "T_batt"
+  },
+  {
+   "run": "edu_pump",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_rad_out"
+  },
+  {
+   "run": "edu_pump",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_batt"
+  },
+  {
+   "run": "edu_pump",
+   "severity": 1.0,
+   "method": "zscore",
+   "top1": false,
+   "top3": true,
+   "predicted": "T_rad_out"
+  },
+  {
+   "run": "edu_pump",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_MG2"
+  },
+  {
+   "run": "edu_pump",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_MG2"
+  },
+  {
+   "run": "edu_pump",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "top1": false,
+   "top3": true,
+   "predicted": "T_batt"
+  },
+  {
+   "run": "edu_pump",
+   "severity": 1.0,
+   "method": "zscore",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_inv"
+  },
+  {
+   "run": "edu_pump",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_MG2"
+  },
+  {
+   "run": "edu_pump",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "top1": false,
+   "top3": true,
+   "predicted": "n_MG2"
+  },
+  {
+   "run": "edu_pump",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "top1": false,
+   "top3": false,
+   "predicted": "steer_angle"
+  },
+  {
+   "run": "ee_babbling_ESC",
+   "severity": 0.5,
+   "method": "zscore",
+   "top1": true,
+   "top3": true,
+   "predicted": "CANFD_F"
+  },
+  {
+   "run": "ee_babbling_ESC",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "CANFD_F"
+  },
+  {
+   "run": "ee_babbling_ESC",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "top1": true,
+   "top3": true,
+   "predicted": "CANFD_F"
+  },
+  {
+   "run": "ee_babbling_ESC",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "CANFD_F"
+  },
+  {
+   "run": "ee_babbling_ESC",
+   "severity": 0.5,
+   "method": "zscore",
+   "top1": true,
+   "top3": true,
+   "predicted": "CANFD_F"
+  },
+  {
+   "run": "ee_babbling_ESC",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "CANFD_F"
+  },
+  {
+   "run": "ee_babbling_ESC",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "top1": true,
+   "top3": true,
+   "predicted": "CANFD_F"
+  },
+  {
+   "run": "ee_babbling_ESC",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "CANFD_F"
+  },
+  {
+   "run": "ee_babbling_ESC",
+   "severity": 1.0,
+   "method": "zscore",
+   "top1": true,
+   "top3": true,
+   "predicted": "ESC"
+  },
+  {
+   "run": "ee_babbling_ESC",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "CANFD_F"
+  },
+  {
+   "run": "ee_babbling_ESC",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "top1": true,
+   "top3": true,
+   "predicted": "ESC"
+  },
+  {
+   "run": "ee_babbling_ESC",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "ESC"
+  },
+  {
+   "run": "ee_babbling_ESC",
+   "severity": 1.0,
+   "method": "zscore",
+   "top1": true,
+   "top3": true,
+   "predicted": "ESC"
+  },
+  {
+   "run": "ee_babbling_ESC",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "top1": false,
+   "top3": true,
+   "predicted": "CANFD_R"
+  },
+  {
+   "run": "ee_babbling_ESC",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "top1": true,
+   "top3": true,
+   "predicted": "ESC"
+  },
+  {
+   "run": "ee_babbling_ESC",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "ESC"
+  },
+  {
+   "run": "ee_bms_overrun",
+   "severity": 0.5,
+   "method": "zscore",
+   "top1": false,
+   "top3": true,
+   "predicted": "T_rad_out"
+  },
+  {
+   "run": "ee_bms_overrun",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "top1": false,
+   "top3": false,
+   "predicted": "body_acc_RR"
+  },
+  {
+   "run": "ee_bms_overrun",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "top1": true,
+   "top3": true,
+   "predicted": "BMS"
+  },
+  {
+   "run": "ee_bms_overrun",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "BMS"
+  },
+  {
+   "run": "ee_bms_overrun",
+   "severity": 0.5,
+   "method": "zscore",
+   "top1": true,
+   "top3": true,
+   "predicted": "BMS"
+  },
+  {
+   "run": "ee_bms_overrun",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_rad_out"
+  },
+  {
+   "run": "ee_bms_overrun",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "top1": true,
+   "top3": true,
+   "predicted": "BMS"
+  },
+  {
+   "run": "ee_bms_overrun",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "BMS"
+  },
+  {
+   "run": "ee_bms_overrun",
+   "severity": 1.0,
+   "method": "zscore",
+   "top1": true,
+   "top3": true,
+   "predicted": "BMS"
+  },
+  {
+   "run": "ee_bms_overrun",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "top1": false,
+   "top3": false,
+   "predicted": "fuel_rate"
+  },
+  {
+   "run": "ee_bms_overrun",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "top1": true,
+   "top3": true,
+   "predicted": "BMS"
+  },
+  {
+   "run": "ee_bms_overrun",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "BMS"
+  },
+  {
+   "run": "ee_bms_overrun",
+   "severity": 1.0,
+   "method": "zscore",
+   "top1": true,
+   "top3": true,
+   "predicted": "BMS"
+  },
+  {
+   "run": "ee_bms_overrun",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "top1": false,
+   "top3": false,
+   "predicted": "DCDC_ECU"
+  },
+  {
+   "run": "ee_bms_overrun",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "top1": true,
+   "top3": true,
+   "predicted": "BMS"
+  },
+  {
+   "run": "ee_bms_overrun",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "BMS"
+  },
+  {
+   "run": "ee_zonal_overload",
+   "severity": 0.5,
+   "method": "zscore",
+   "top1": true,
+   "top3": true,
+   "predicted": "ZC_FRONT"
+  },
+  {
+   "run": "ee_zonal_overload",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "top1": false,
+   "top3": false,
+   "predicted": "a_lat"
+  },
+  {
+   "run": "ee_zonal_overload",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "top1": true,
+   "top3": true,
+   "predicted": "ZC_FRONT"
+  },
+  {
+   "run": "ee_zonal_overload",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "ZC_FRONT"
+  },
+  {
+   "run": "ee_zonal_overload",
+   "severity": 0.5,
+   "method": "zscore",
+   "top1": true,
+   "top3": true,
+   "predicted": "ZC_FRONT"
+  },
+  {
+   "run": "ee_zonal_overload",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_batt"
+  },
+  {
+   "run": "ee_zonal_overload",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "top1": true,
+   "top3": true,
+   "predicted": "ZC_FRONT"
+  },
+  {
+   "run": "ee_zonal_overload",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "ZC_FRONT"
+  },
+  {
+   "run": "ee_zonal_overload",
+   "severity": 1.0,
+   "method": "zscore",
+   "top1": true,
+   "top3": true,
+   "predicted": "ZC_FRONT"
+  },
+  {
+   "run": "ee_zonal_overload",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "ZC_FRONT"
+  },
+  {
+   "run": "ee_zonal_overload",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "top1": true,
+   "top3": true,
+   "predicted": "ZC_FRONT"
+  },
+  {
+   "run": "ee_zonal_overload",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "ZC_FRONT"
+  },
+  {
+   "run": "ee_zonal_overload",
+   "severity": 1.0,
+   "method": "zscore",
+   "top1": true,
+   "top3": true,
+   "predicted": "ZC_FRONT"
+  },
+  {
+   "run": "ee_zonal_overload",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "top1": false,
+   "top3": true,
+   "predicted": "EPS"
+  },
+  {
+   "run": "ee_zonal_overload",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "top1": true,
+   "top3": true,
+   "predicted": "ZC_FRONT"
+  },
+  {
+   "run": "ee_zonal_overload",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "ZC_FRONT"
+  },
+  {
+   "run": "mg2_winding",
+   "severity": 0.5,
+   "method": "zscore",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_rad_out"
+  },
+  {
+   "run": "mg2_winding",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_MG2"
+  },
+  {
+   "run": "mg2_winding",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "top1": false,
+   "top3": true,
+   "predicted": "T_batt"
+  },
+  {
+   "run": "mg2_winding",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_batt"
+  },
+  {
+   "run": "mg2_winding",
+   "severity": 0.5,
+   "method": "zscore",
+   "top1": false,
+   "top3": false,
+   "predicted": "p_tire_FL"
+  },
+  {
+   "run": "mg2_winding",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_MG2"
+  },
+  {
+   "run": "mg2_winding",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_MG2"
+  },
+  {
+   "run": "mg2_winding",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_MG2"
+  },
+  {
+   "run": "mg2_winding",
+   "severity": 1.0,
+   "method": "zscore",
+   "top1": false,
+   "top3": false,
+   "predicted": "n_eng"
+  },
+  {
+   "run": "mg2_winding",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_batt"
+  },
+  {
+   "run": "mg2_winding",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_rad_out"
+  },
+  {
+   "run": "mg2_winding",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_batt"
+  },
+  {
+   "run": "mg2_winding",
+   "severity": 1.0,
+   "method": "zscore",
+   "top1": false,
+   "top3": true,
+   "predicted": "T_rad_out"
+  },
+  {
+   "run": "mg2_winding",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_MG2"
+  },
+  {
+   "run": "mg2_winding",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_MG2"
+  },
+  {
+   "run": "mg2_winding",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_batt"
+  },
+  {
+   "run": "misfire",
+   "severity": 0.5,
+   "method": "zscore",
+   "top1": true,
+   "top3": true,
+   "predicted": "n_eng"
+  },
+  {
+   "run": "misfire",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_cat"
+  },
+  {
+   "run": "misfire",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "top1": false,
+   "top3": true,
+   "predicted": "T_batt"
+  },
+  {
+   "run": "misfire",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "top1": false,
+   "top3": true,
+   "predicted": "T_batt"
+  },
+  {
+   "run": "misfire",
+   "severity": 0.5,
+   "method": "zscore",
+   "top1": false,
+   "top3": true,
+   "predicted": "T_rad_out"
+  },
+  {
+   "run": "misfire",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_MG2"
+  },
+  {
+   "run": "misfire",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_rad_out"
+  },
+  {
+   "run": "misfire",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "top1": false,
+   "top3": true,
+   "predicted": "T_batt"
+  },
+  {
+   "run": "misfire",
+   "severity": 1.0,
+   "method": "zscore",
+   "top1": false,
+   "top3": false,
+   "predicted": "SOC"
+  },
+  {
+   "run": "misfire",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "top1": false,
+   "top3": true,
+   "predicted": "SOC"
+  },
+  {
+   "run": "misfire",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "top1": false,
+   "top3": false,
+   "predicted": "SOC"
+  },
+  {
+   "run": "misfire",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "top1": false,
+   "top3": true,
+   "predicted": "SOC"
+  },
+  {
+   "run": "misfire",
+   "severity": 1.0,
+   "method": "zscore",
+   "top1": true,
+   "top3": true,
+   "predicted": "n_eng"
+  },
+  {
+   "run": "misfire",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_cat"
+  },
+  {
+   "run": "misfire",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "top1": false,
+   "top3": false,
+   "predicted": "TCU"
+  },
+  {
+   "run": "misfire",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "top1": false,
+   "top3": true,
+   "predicted": "T_batt"
+  },
+  {
+   "run": "sens_bias_yaw",
+   "severity": 0.5,
+   "method": "zscore",
+   "top1": false,
+   "top3": false,
+   "predicted": "n_eng"
+  },
+  {
+   "run": "sens_bias_yaw",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "yaw_rate"
+  },
+  {
+   "run": "sens_bias_yaw",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_rad_out"
+  },
+  {
+   "run": "sens_bias_yaw",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "yaw_rate"
+  },
+  {
+   "run": "sens_bias_yaw",
+   "severity": 0.5,
+   "method": "zscore",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_rad_out"
+  },
+  {
+   "run": "sens_bias_yaw",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "yaw_rate"
+  },
+  {
+   "run": "sens_bias_yaw",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "top1": false,
+   "top3": true,
+   "predicted": "T_batt"
+  },
+  {
+   "run": "sens_bias_yaw",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "yaw_rate"
+  },
+  {
+   "run": "sens_bias_yaw",
+   "severity": 1.0,
+   "method": "zscore",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_batt"
+  },
+  {
+   "run": "sens_bias_yaw",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "yaw_rate"
+  },
+  {
+   "run": "sens_bias_yaw",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "top1": true,
+   "top3": true,
+   "predicted": "yaw_rate"
+  },
+  {
+   "run": "sens_bias_yaw",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "top1": false,
+   "top3": true,
+   "predicted": "steer_angle"
+  },
+  {
+   "run": "sens_bias_yaw",
+   "severity": 1.0,
+   "method": "zscore",
+   "top1": true,
+   "top3": true,
+   "predicted": "yaw_rate"
+  },
+  {
+   "run": "sens_bias_yaw",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "yaw_rate"
+  },
+  {
+   "run": "sens_bias_yaw",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "top1": true,
+   "top3": true,
+   "predicted": "yaw_rate"
+  },
+  {
+   "run": "sens_bias_yaw",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "top1": false,
+   "top3": true,
+   "predicted": "steer_angle"
+  },
+  {
+   "run": "sens_noise_wFR",
+   "severity": 0.5,
+   "method": "zscore",
+   "top1": false,
+   "top3": false,
+   "predicted": "p_tire_FL"
+  },
+  {
+   "run": "sens_noise_wFR",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "w_FR"
+  },
+  {
+   "run": "sens_noise_wFR",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_batt"
+  },
+  {
+   "run": "sens_noise_wFR",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "w_FR"
+  },
+  {
+   "run": "sens_noise_wFR",
+   "severity": 0.5,
+   "method": "zscore",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_MG1"
+  },
+  {
+   "run": "sens_noise_wFR",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "w_FR"
+  },
+  {
+   "run": "sens_noise_wFR",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "top1": true,
+   "top3": true,
+   "predicted": "w_FR"
+  },
+  {
+   "run": "sens_noise_wFR",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "w_FR"
+  },
+  {
+   "run": "sens_noise_wFR",
+   "severity": 1.0,
+   "method": "zscore",
+   "top1": false,
+   "top3": false,
+   "predicted": "n_eng"
+  },
+  {
+   "run": "sens_noise_wFR",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "w_FR"
+  },
+  {
+   "run": "sens_noise_wFR",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "top1": false,
+   "top3": true,
+   "predicted": "T_rad_out"
+  },
+  {
+   "run": "sens_noise_wFR",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "w_FR"
+  },
+  {
+   "run": "sens_noise_wFR",
+   "severity": 1.0,
+   "method": "zscore",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_rad_out"
+  },
+  {
+   "run": "sens_noise_wFR",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "w_FR"
+  },
+  {
+   "run": "sens_noise_wFR",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "top1": false,
+   "top3": true,
+   "predicted": "steer_angle"
+  },
+  {
+   "run": "sens_noise_wFR",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "w_FR"
+  },
+  {
+   "run": "sens_stuck_Tbatt",
+   "severity": 0.5,
+   "method": "zscore",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_MG1"
+  },
+  {
+   "run": "sens_stuck_Tbatt",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_batt"
+  },
+  {
+   "run": "sens_stuck_Tbatt",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "top1": false,
+   "top3": false,
+   "predicted": "P_ac"
+  },
+  {
+   "run": "sens_stuck_Tbatt",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "top1": false,
+   "top3": false,
+   "predicted": "ZC_FRONT"
+  },
+  {
+   "run": "sens_stuck_Tbatt",
+   "severity": 0.5,
+   "method": "zscore",
+   "top1": false,
+   "top3": false,
+   "predicted": "n_eng"
+  },
+  {
+   "run": "sens_stuck_Tbatt",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_batt"
+  },
+  {
+   "run": "sens_stuck_Tbatt",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "top1": false,
+   "top3": true,
+   "predicted": "T_rad_out"
+  },
+  {
+   "run": "sens_stuck_Tbatt",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_batt"
+  },
+  {
+   "run": "sens_stuck_Tbatt",
+   "severity": 1.0,
+   "method": "zscore",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_rad_out"
+  },
+  {
+   "run": "sens_stuck_Tbatt",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_batt"
+  },
+  {
+   "run": "sens_stuck_Tbatt",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "top1": false,
+   "top3": true,
+   "predicted": "steer_angle"
+  },
+  {
+   "run": "sens_stuck_Tbatt",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "top1": false,
+   "top3": true,
+   "predicted": "steer_angle"
+  },
+  {
+   "run": "sens_stuck_Tbatt",
+   "severity": 1.0,
+   "method": "zscore",
+   "top1": false,
+   "top3": true,
+   "predicted": "T_MG1"
+  },
+  {
+   "run": "sens_stuck_Tbatt",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_batt"
+  },
+  {
+   "run": "sens_stuck_Tbatt",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "top1": false,
+   "top3": false,
+   "predicted": "n_MG2"
+  },
+  {
+   "run": "sens_stuck_Tbatt",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "top1": false,
+   "top3": false,
+   "predicted": "ZC_REAR"
+  },
+  {
+   "run": "thermostat_stuck",
+   "severity": 0.5,
+   "method": "zscore",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_MG2"
+  },
+  {
+   "run": "thermostat_stuck",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "top1": false,
+   "top3": false,
+   "predicted": "body_acc_FR"
+  },
+  {
+   "run": "thermostat_stuck",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "top1": false,
+   "top3": false,
+   "predicted": "body_acc_RR"
+  },
+  {
+   "run": "thermostat_stuck",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "top1": false,
+   "top3": false,
+   "predicted": "body_acc_FR"
+  },
+  {
+   "run": "thermostat_stuck",
+   "severity": 0.5,
+   "method": "zscore",
+   "top1": false,
+   "top3": false,
+   "predicted": "steer_angle"
+  },
+  {
+   "run": "thermostat_stuck",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "top1": false,
+   "top3": true,
+   "predicted": "T_MG1"
+  },
+  {
+   "run": "thermostat_stuck",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "top1": false,
+   "top3": false,
+   "predicted": "steer_angle"
+  },
+  {
+   "run": "thermostat_stuck",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "top1": false,
+   "top3": true,
+   "predicted": "steer_angle"
+  },
+  {
+   "run": "thermostat_stuck",
+   "severity": 1.0,
+   "method": "zscore",
+   "top1": false,
+   "top3": false,
+   "predicted": "p_tire_FR"
+  },
+  {
+   "run": "thermostat_stuck",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_cabin"
+  },
+  {
+   "run": "thermostat_stuck",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "top1": false,
+   "top3": true,
+   "predicted": "T_batt"
+  },
+  {
+   "run": "thermostat_stuck",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "top1": false,
+   "top3": false,
+   "predicted": "T_batt"
+  },
+  {
+   "run": "thermostat_stuck",
+   "severity": 1.0,
+   "method": "zscore",
+   "top1": false,
+   "top3": true,
+   "predicted": "p_tire_FL"
+  },
+  {
+   "run": "thermostat_stuck",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "T_cool_eng"
+  },
+  {
+   "run": "thermostat_stuck",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "top1": false,
+   "top3": true,
+   "predicted": "T_MG2"
+  },
+  {
+   "run": "thermostat_stuck",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "top1": false,
+   "top3": true,
+   "predicted": "T_MG2"
+  },
+  {
+   "run": "tire_leak_FL",
+   "severity": 0.5,
+   "method": "zscore",
+   "top1": true,
+   "top3": true,
+   "predicted": "p_tire_FL"
+  },
+  {
+   "run": "tire_leak_FL",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "p_tire_FL"
+  },
+  {
+   "run": "tire_leak_FL",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "top1": true,
+   "top3": true,
+   "predicted": "p_tire_FL"
+  },
+  {
+   "run": "tire_leak_FL",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "p_tire_FL"
+  },
+  {
+   "run": "tire_leak_FL",
+   "severity": 0.5,
+   "method": "zscore",
+   "top1": true,
+   "top3": true,
+   "predicted": "p_tire_FL"
+  },
+  {
+   "run": "tire_leak_FL",
+   "severity": 0.5,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "p_tire_FL"
+  },
+  {
+   "run": "tire_leak_FL",
+   "severity": 0.5,
+   "method": "gsp_highpass",
+   "top1": true,
+   "top3": true,
+   "predicted": "p_tire_FL"
+  },
+  {
+   "run": "tire_leak_FL",
+   "severity": 0.5,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "p_tire_FL"
+  },
+  {
+   "run": "tire_leak_FL",
+   "severity": 1.0,
+   "method": "zscore",
+   "top1": true,
+   "top3": true,
+   "predicted": "p_tire_FL"
+  },
+  {
+   "run": "tire_leak_FL",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "p_tire_FL"
+  },
+  {
+   "run": "tire_leak_FL",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "top1": true,
+   "top3": true,
+   "predicted": "p_tire_FL"
+  },
+  {
+   "run": "tire_leak_FL",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "p_tire_FL"
+  },
+  {
+   "run": "tire_leak_FL",
+   "severity": 1.0,
+   "method": "zscore",
+   "top1": true,
+   "top3": true,
+   "predicted": "p_tire_FL"
+  },
+  {
+   "run": "tire_leak_FL",
+   "severity": 1.0,
+   "method": "pca_spe",
+   "top1": true,
+   "top3": true,
+   "predicted": "p_tire_FL"
+  },
+  {
+   "run": "tire_leak_FL",
+   "severity": 1.0,
+   "method": "gsp_highpass",
+   "top1": true,
+   "top3": true,
+   "predicted": "p_tire_FL"
+  },
+  {
+   "run": "tire_leak_FL",
+   "severity": 1.0,
+   "method": "gsp_nbr_reg",
+   "top1": true,
+   "top3": true,
+   "predicted": "p_tire_FL"
+  }
+ ],
+ "threshold_far": 0.01,
+ "pca_components": 30
+}

@@ -1,0 +1,19 @@
+service,service_id_hex,instance_id,provider,consumers,eventgroup_id,event,event_id_arxml_hex,event_id_on_wire_hex,source_ipdu,cycle_ms,payload_bytes,transport,someip_message_type,graph_signals
+PowertrainStatus,0x1101,1,ZC_FRONT,CVC;TCU,1,ECM_EngSts,0x0001,0x8001,ECM_EngSts,10,7,UDP (unicast/multicast),NOTIFICATION (0x02),n_eng;tq_eng;fuel_rate
+PowertrainStatus,0x1101,1,ZC_FRONT,CVC;TCU,1,ECM_EngThm,0x0002,0x8002,ECM_EngThm,100,2,UDP (unicast/multicast),NOTIFICATION (0x02),T_cool_eng;T_cat
+PowertrainStatus,0x1101,1,ZC_FRONT,CVC;TCU,1,PCU_MgSts,0x0003,0x8003,PCU_MgSts,10,12,UDP (unicast/multicast),NOTIFICATION (0x02),n_MG1;tq_MG1;n_MG2;tq_MG2
+PowertrainStatus,0x1101,1,ZC_FRONT,CVC;TCU,1,PCU_MgThm,0x0004,0x8004,PCU_MgThm,100,3,UDP (unicast/multicast),NOTIFICATION (0x02),T_MG1;T_MG2;T_inv
+PowertrainStatus,0x1101,1,ZC_FRONT,CVC;TCU,1,DCDC_Sts,0x0005,0x8005,DCDC_Sts,100,3,UDP (unicast/multicast),NOTIFICATION (0x02),V_12;I_dcdc
+PowertrainStatus,0x1101,1,ZC_FRONT,CVC;TCU,1,TMS_Sts,0x0006,0x8006,TMS_Sts,100,3,UDP (unicast/multicast),NOTIFICATION (0x02),T_cool_edu;T_rad_out
+ChassisStatus,0x1102,1,ZC_FRONT,CVC;TCU,1,ESC_VehDyn,0x0001,0x8001,ESC_VehDyn,10,12,UDP (unicast/multicast),NOTIFICATION (0x02),v_veh;a_long;a_lat;yaw_rate
+ChassisStatus,0x1102,1,ZC_FRONT,CVC;TCU,1,ESC_WhlSpd,0x0002,0x8002,ESC_WhlSpd,10,12,UDP (unicast/multicast),NOTIFICATION (0x02),w_FL;w_FR;w_RL;w_RR
+ChassisStatus,0x1102,1,ZC_FRONT,CVC;TCU,1,ESC_Brk,0x0003,0x8003,ESC_Brk,20,6,UDP (unicast/multicast),NOTIFICATION (0x02),brake_pressure;T_brake_F;T_brake_R
+ChassisStatus,0x1102,1,ZC_FRONT,CVC;TCU,1,EPS_Sts,0x0004,0x8004,EPS_Sts,10,4,UDP (unicast/multicast),NOTIFICATION (0x02),steer_angle
+EnergyStorageStatus,0x1201,1,ZC_REAR,CVC;TCU,1,BMS_PackSts,0x0001,0x8001,BMS_PackSts,20,8,UDP (unicast/multicast),NOTIFICATION (0x02),I_batt;V_batt;SOC
+EnergyStorageStatus,0x1201,1,ZC_REAR,CVC;TCU,1,BMS_Thm,0x0002,0x8002,BMS_Thm,100,2,UDP (unicast/multicast),NOTIFICATION (0x02),T_batt
+BodyChassisStatus,0x1202,1,ZC_REAR,CVC;TCU,1,SCU_Travel,0x0001,0x8001,SCU_Travel,10,6,UDP (unicast/multicast),NOTIFICATION (0x02),susp_travel_FL;susp_travel_FR;susp_travel_RL;susp_travel_RR
+BodyChassisStatus,0x1202,1,ZC_REAR,CVC;TCU,1,SCU_BodyAcc,0x0002,0x8002,SCU_BodyAcc,20,6,UDP (unicast/multicast),NOTIFICATION (0x02),body_acc_FL;body_acc_FR;body_acc_RL;body_acc_RR
+BodyChassisStatus,0x1202,1,ZC_REAR,CVC;TCU,1,TPMS_Press,0x0003,0x8003,TPMS_Press,1000,5,UDP (unicast/multicast),NOTIFICATION (0x02),p_tire_FL;p_tire_FR;p_tire_RL;p_tire_RR
+BodyChassisStatus,0x1202,1,ZC_REAR,CVC;TCU,1,CCU_Sts,0x0004,0x8004,CCU_Sts,200,3,UDP (unicast/multicast),NOTIFICATION (0x02),T_cabin;P_ac
+DriverInput,0x1103,1,ZC_FRONT,CVC;TCU,1,DriverInput_Evt,0x0001,0x8001,,10,8,UDP (unicast/multicast),NOTIFICATION (0x02),pedal_acc
+EnergyManagement,0x2001,1,CVC,ZC_FRONT;ZC_REAR,1,EnergyManagement_Evt,0x0001,0x8001,,10,8,UDP (unicast/multicast),NOTIFICATION (0x02),

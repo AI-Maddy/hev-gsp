@@ -1,0 +1,16 @@
+fault,layer,zscore,pca_spe,gsp_highpass,gsp_nbr_reg
+bat_resistance,physical,0.5232,0.6265,0.5823,0.5891
+edu_pump,physical,0.4608,0.6606,0.4790,0.5609
+mg2_winding,physical,0.4229,0.5694,0.4318,0.4979
+misfire,physical,0.4989,0.7719,0.5837,0.7055
+thermostat_stuck,physical,0.4732,0.7290,0.3976,0.4574
+tire_leak_FL,physical,0.9958,1.0000,0.9999,1.0000
+damper_RR,physical,0.5648,0.4847,0.5206,0.5693
+brake_drag_F,physical,0.8155,0.9697,0.7816,0.8574
+dcdc_degradation,physical,0.9957,1.0000,1.0000,1.0000
+sens_bias_yaw,sensor,0.5153,0.8688,0.6211,0.8736
+sens_stuck_Tbatt,sensor,0.3815,0.6813,0.4472,0.4638
+sens_noise_wFR,sensor,0.4312,0.6743,0.4908,0.9488
+ee_babbling_ESC,ee,1.0000,0.9999,1.0000,1.0000
+ee_zonal_overload,ee,0.9605,0.6966,0.9458,0.9590
+ee_bms_overrun,ee,0.9722,0.5308,0.9477,0.9731

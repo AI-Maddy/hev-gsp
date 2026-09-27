@@ -1,0 +1,334 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: DCDC_ECU ECM EPS ESC PCU TMS ZC_FRONT
+
+
+BO_ 384 ECM_EngSts: 7 ECM
+ SG_ fuel_rate : 41|11@1+ (0.01,0) [0|20.47] "g/s"  ZC_FRONT
+ SG_ tq_eng : 31|10@1+ (0.5,-50) [-50|461.5] "N m"  ZC_FRONT
+ SG_ n_eng : 16|15@1+ (0.25,0.0) [0.0|8191.75] "rpm"  ZC_FRONT
+ SG_ ECM_EngSts_Counter : 8|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ECM_EngSts_CRC : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 386 ECM_EngThm: 2 ECM
+ SG_ T_cat : 8|8@1+ (5,-40) [-40|1235.0] "degC"  ZC_FRONT
+ SG_ T_cool_eng : 0|8@1+ (1,-40) [-40.0|215.0] "degC"  ZC_FRONT
+
+BO_ 320 PCU_MgSts: 12 PCU
+ SG_ tq_MG2 : 57|12@1+ (0.25,-400) [-400|623.75] "N m"  ZC_FRONT
+ SG_ n_MG2 : 42|15@1+ (1,-15000) [-15000|17767.0] "rpm"  ZC_FRONT
+ SG_ tq_MG1 : 31|11@1+ (0.25,-200) [-200|311.75] "N m"  ZC_FRONT
+ SG_ n_MG1 : 16|15@1+ (1,-15000) [-15000|17767.0] "rpm"  ZC_FRONT
+ SG_ PCU_MgSts_Counter : 8|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PCU_MgSts_CRC : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 322 PCU_MgThm: 3 PCU
+ SG_ T_inv : 16|8@1+ (1,-40) [-40|215.0] "degC"  ZC_FRONT
+ SG_ T_MG2 : 8|8@1+ (1,-40) [-40|215.0] "degC"  ZC_FRONT
+ SG_ T_MG1 : 0|8@1+ (1,-40) [-40|215.0] "degC"  ZC_FRONT
+
+BO_ 128 ESC_VehDyn: 12 ESC
+ SG_ yaw_rate : 53|13@1+ (0.05,-150) [-150|259.55] "deg/s"  ZC_FRONT
+ SG_ a_lat : 41|12@1+ (0.01,-15) [-15|25.950000000000003] "m/s^2"  ZC_FRONT
+ SG_ a_long : 29|12@1+ (0.01,-15) [-15|25.950000000000003] "m/s^2"  ZC_FRONT
+ SG_ v_veh : 16|13@1+ (0.01,0) [0|81.91] "m/s"  ZC_FRONT
+ SG_ ESC_VehDyn_Counter : 8|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ESC_VehDyn_CRC : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 130 ESC_WhlSpd: 12 ESC
+ SG_ w_RR : 58|14@1+ (0.03,0) [0|491.49] "rad/s"  ZC_FRONT
+ SG_ w_RL : 44|14@1+ (0.03,0) [0|491.49] "rad/s"  ZC_FRONT
+ SG_ w_FR : 30|14@1+ (0.03,0) [0|491.49] "rad/s"  ZC_FRONT
+ SG_ w_FL : 16|14@1+ (0.03,0) [0|491.49] "rad/s"  ZC_FRONT
+ SG_ ESC_WhlSpd_Counter : 8|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ESC_WhlSpd_CRC : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 132 ESC_Brk: 6 ESC
+ SG_ T_brake_R : 38|10@1+ (1,-40) [-40|983.0] "degC"  ZC_FRONT
+ SG_ T_brake_F : 28|10@1+ (1,-40) [-40|983.0] "degC"  ZC_FRONT
+ SG_ brake_pressure : 16|12@1+ (0.1,0) [0|409.5] "bar"  ZC_FRONT
+ SG_ ESC_Brk_Counter : 8|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ESC_Brk_CRC : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 256 EPS_Sts: 4 EPS
+ SG_ steer_angle : 16|14@1+ (0.1,-800) [-800|838.3000000000002] "deg"  ZC_FRONT
+ SG_ EPS_Sts_Counter : 8|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPS_Sts_CRC : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 768 DCDC_Sts: 3 DCDC_ECU
+ SG_ I_dcdc : 11|12@1+ (0.1,0) [0|409.5] "A"  ZC_FRONT
+ SG_ V_12 : 0|11@1+ (0.01,0) [0|20.47] "V"  ZC_FRONT
+
+BO_ 832 TMS_Sts: 3 TMS
+ SG_ T_rad_out : 9|8@1+ (1,-40) [-40|215.0] "degC"  ZC_FRONT
+ SG_ T_cool_edu : 0|9@1+ (0.5,-40) [-40|215.5] "degC"  ZC_FRONT
+
+BO_ 192 ZCF_TqReqEng: 8 ZC_FRONT
+ SG_ ZCF_TqReqEng_Counter : 8|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ZCF_TqReqEng_CRC : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 194 ZCF_TqReqMg: 8 ZC_FRONT
+ SG_ ZCF_TqReqMg_Counter : 8|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ZCF_TqReqMg_CRC : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 196 ZCF_ThmReq: 8 ZC_FRONT
+ SG_ ZCF_ThmReq_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1194 ECM_Bg0: 8 ECM
+ SG_ ECM_Bg0_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 406 ECM_Bg1: 24 ECM
+ SG_ ECM_Bg1_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 408 ECM_Bg2: 16 ECM
+ SG_ ECM_Bg2_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 410 ECM_Bg3: 16 ECM
+ SG_ ECM_Bg3_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1202 ECM_Bg4: 16 ECM
+ SG_ ECM_Bg4_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1204 ECM_Bg5: 32 ECM
+ SG_ ECM_Bg5_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1206 ECM_Bg6: 64 ECM
+ SG_ ECM_Bg6_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1792 ECM_NM: 8 ECM
+ SG_ ECM_NM_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1210 PCU_Bg0: 8 PCU
+ SG_ PCU_Bg0_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1212 PCU_Bg1: 24 PCU
+ SG_ PCU_Bg1_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 344 PCU_Bg2: 8 PCU
+ SG_ PCU_Bg2_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 346 PCU_Bg3: 64 PCU
+ SG_ PCU_Bg3_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1218 PCU_Bg4: 64 PCU
+ SG_ PCU_Bg4_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 350 PCU_Bg5: 24 PCU
+ SG_ PCU_Bg5_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1793 PCU_NM: 8 PCU
+ SG_ PCU_NM_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1224 ESC_Bg0: 32 ESC
+ SG_ ESC_Bg0_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 152 ESC_Bg1: 24 ESC
+ SG_ ESC_Bg1_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1228 ESC_Bg2: 32 ESC
+ SG_ ESC_Bg2_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1230 ESC_Bg3: 16 ESC
+ SG_ ESC_Bg3_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1232 ESC_Bg4: 16 ESC
+ SG_ ESC_Bg4_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 160 ESC_Bg5: 8 ESC
+ SG_ ESC_Bg5_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 162 ESC_Bg6: 8 ESC
+ SG_ ESC_Bg6_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1238 ESC_Bg7: 24 ESC
+ SG_ ESC_Bg7_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1794 ESC_NM: 8 ESC
+ SG_ ESC_NM_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 274 EPS_Bg0: 16 EPS
+ SG_ EPS_Bg0_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 276 EPS_Bg1: 24 EPS
+ SG_ EPS_Bg1_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1246 EPS_Bg2: 8 EPS
+ SG_ EPS_Bg2_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1248 EPS_Bg3: 16 EPS
+ SG_ EPS_Bg3_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1795 EPS_NM: 8 EPS
+ SG_ EPS_NM_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1252 DCDC_ECU_Bg0: 16 DCDC_ECU
+ SG_ DCDC_ECU_Bg0_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 788 DCDC_ECU_Bg1: 8 DCDC_ECU
+ SG_ DCDC_ECU_Bg1_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1256 DCDC_ECU_Bg2: 24 DCDC_ECU
+ SG_ DCDC_ECU_Bg2_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1796 DCDC_ECU_NM: 8 DCDC_ECU
+ SG_ DCDC_ECU_NM_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 850 TMS_Bg0: 16 TMS
+ SG_ TMS_Bg0_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1262 TMS_Bg1: 8 TMS
+ SG_ TMS_Bg1_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1264 TMS_Bg2: 8 TMS
+ SG_ TMS_Bg2_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1266 TMS_Bg3: 64 TMS
+ SG_ TMS_Bg3_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1797 TMS_NM: 8 TMS
+ SG_ TMS_NM_Payload : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+
+
+
+CM_ BO_ 384 "ComTxModeMode=MIXED; MDT=2 ms; E2E=P11";
+CM_ BO_ 386 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 320 "ComTxModeMode=MIXED; MDT=2 ms; E2E=P11";
+CM_ BO_ 322 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 128 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=P11";
+CM_ BO_ 130 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=P11";
+CM_ BO_ 132 "ComTxModeMode=MIXED; MDT=5 ms; E2E=P11";
+CM_ BO_ 256 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=P11";
+CM_ BO_ 768 "ComTxModeMode=MIXED; MDT=10 ms; E2E=none";
+CM_ BO_ 832 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 192 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=P11";
+CM_ BO_ 194 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=P11";
+CM_ BO_ 196 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 1194 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 406 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 408 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 410 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 1202 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 1204 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 1206 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 1792 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 1210 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 1212 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 344 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 346 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 1218 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 350 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 1793 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 1224 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 152 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 1228 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 1230 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 1232 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 160 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 162 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 1238 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 1794 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 274 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 276 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 1246 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 1248 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 1795 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 1252 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 788 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 1256 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 1796 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 850 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 1262 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 1264 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 1266 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+CM_ BO_ 1797 "ComTxModeMode=PERIODIC; MDT=0 ms; E2E=none";
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 65535;
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_ "GenMsgCycleTime" BO_ 384 10;
+BA_ "GenMsgCycleTime" BO_ 386 100;
+BA_ "GenMsgCycleTime" BO_ 320 10;
+BA_ "GenMsgCycleTime" BO_ 322 100;
+BA_ "GenMsgCycleTime" BO_ 128 10;
+BA_ "GenMsgCycleTime" BO_ 130 10;
+BA_ "GenMsgCycleTime" BO_ 132 20;
+BA_ "GenMsgCycleTime" BO_ 256 10;
+BA_ "GenMsgCycleTime" BO_ 768 100;
+BA_ "GenMsgCycleTime" BO_ 832 100;
+BA_ "GenMsgCycleTime" BO_ 192 10;
+BA_ "GenMsgCycleTime" BO_ 194 10;
+BA_ "GenMsgCycleTime" BO_ 196 100;
+BA_ "GenMsgCycleTime" BO_ 1194 200;
+BA_ "GenMsgCycleTime" BO_ 406 10;
+BA_ "GenMsgCycleTime" BO_ 408 50;
+BA_ "GenMsgCycleTime" BO_ 410 10;
+BA_ "GenMsgCycleTime" BO_ 1202 100;
+BA_ "GenMsgCycleTime" BO_ 1204 200;
+BA_ "GenMsgCycleTime" BO_ 1206 100;
+BA_ "GenMsgCycleTime" BO_ 1792 1000;
+BA_ "GenMsgCycleTime" BO_ 1210 200;
+BA_ "GenMsgCycleTime" BO_ 1212 500;
+BA_ "GenMsgCycleTime" BO_ 344 10;
+BA_ "GenMsgCycleTime" BO_ 346 20;
+BA_ "GenMsgCycleTime" BO_ 1218 200;
+BA_ "GenMsgCycleTime" BO_ 350 20;
+BA_ "GenMsgCycleTime" BO_ 1793 1000;
+BA_ "GenMsgCycleTime" BO_ 1224 100;
+BA_ "GenMsgCycleTime" BO_ 152 10;
+BA_ "GenMsgCycleTime" BO_ 1228 100;
+BA_ "GenMsgCycleTime" BO_ 1230 100;
+BA_ "GenMsgCycleTime" BO_ 1232 100;
+BA_ "GenMsgCycleTime" BO_ 160 20;
+BA_ "GenMsgCycleTime" BO_ 162 20;
+BA_ "GenMsgCycleTime" BO_ 1238 200;
+BA_ "GenMsgCycleTime" BO_ 1794 1000;
+BA_ "GenMsgCycleTime" BO_ 274 10;
+BA_ "GenMsgCycleTime" BO_ 276 20;
+BA_ "GenMsgCycleTime" BO_ 1246 200;
+BA_ "GenMsgCycleTime" BO_ 1248 100;
+BA_ "GenMsgCycleTime" BO_ 1795 1000;
+BA_ "GenMsgCycleTime" BO_ 1252 500;
+BA_ "GenMsgCycleTime" BO_ 788 20;
+BA_ "GenMsgCycleTime" BO_ 1256 100;
+BA_ "GenMsgCycleTime" BO_ 1796 1000;
+BA_ "GenMsgCycleTime" BO_ 850 50;
+BA_ "GenMsgCycleTime" BO_ 1262 100;
+BA_ "GenMsgCycleTime" BO_ 1264 500;
+BA_ "GenMsgCycleTime" BO_ 1266 500;
+BA_ "GenMsgCycleTime" BO_ 1797 1000;
+
+
+
+

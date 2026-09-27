@@ -1,0 +1,17 @@
+fault_id,name,layer,component,primary_node,component_nodes,ramp_s,description
+0,nominal,,,,,,no fault
+1,bat_resistance,physical,battery,V_batt,I_batt;V_batt;SOC;T_batt,60,Cell internal-resistance growth (R0 x1.75 / x2.5)
+2,edu_pump,physical,edu_cooling,T_cool_edu,T_cool_edu;T_MG1;T_MG2;T_inv,30,Electric-drive coolant pump flow loss (-37% / -75%)
+3,mg2_winding,physical,mg2,T_MG2,T_MG2;tq_MG2;n_MG2,60,"MG2 stator inter-turn short: circulating loss ~ speed^2 (250/500 W at 1000 rad/s), copper loss x2 / x3"
+4,misfire,physical,engine,tq_MG1,tq_MG1;tq_eng;n_eng;fuel_rate;T_cat;T_cool_eng,5,"Cylinder misfire, 12% / 25% torque loss, catalyst heating"
+5,thermostat_stuck,physical,engine_cooling,T_cool_eng,T_cool_eng;T_rad_out,10,Thermostat stuck 60% / 100% open
+6,tire_leak_FL,physical,tire_FL,p_tire_FL,p_tire_FL;w_FL;susp_travel_FL;body_acc_FL,300,"Slow leak front-left, -22% / -45% cold pressure (tau 300 s)"
+7,damper_RR,physical,damper_RR,body_acc_RR,body_acc_RR;susp_travel_RR,20,"Rear-right damper oil loss, damping -40% / -80%"
+8,brake_drag_F,physical,brakes_front,T_brake_F,T_brake_F,10,"Front caliper drag, 125 N / 250 N residual force"
+9,dcdc_degradation,physical,dcdc,V_12,V_12;I_dcdc,30,"DC-DC output sag 0.4 / 0.8 V, efficiency loss, ripple"
+10,sens_bias_yaw,sensor,imu,yaw_rate,yaw_rate,120,Yaw-rate sensor bias drift to 1.5 / 3 deg/s
+11,sens_stuck_Tbatt,sensor,bms_sensor,T_batt,T_batt,0,Battery temperature sensor stuck at last value (+/- offset)
+12,sens_noise_wFR,sensor,wss_FR,w_FR,w_FR,0,Wheel-speed sensor FR intermittent dropouts and noise
+13,ee_babbling_ESC,ee,ESC,ESC,ESC;CANFD_F,0,"ESC babbling idiot: spurious high-priority CAN FD frames, 1750 / 3500 fps"
+14,ee_zonal_overload,ee,ZC_FRONT,ZC_FRONT,ZC_FRONT;CVC;ETH_BB,20,Remote DoIP (ISO 13400) UDS request flood via TCU saturating the front zonal gateway
+15,ee_bms_overrun,ee,BMS,BMS,BMS,10,"BMS OS task overrun, CPU load +12% / +25%"

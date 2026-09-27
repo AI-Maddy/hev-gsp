@@ -1,0 +1,12 @@
+# generated data: published as GitHub Release assets, not committed
+data/runs/
+dist/
+*.h5
+*.npz
+!data/graph.npz
+# CAPI aragen output carries AUTOSAR's "information only" terms; regenerate locally
+adaptive/generated/
+__pycache__/
+*.pyc
+*.log
+!results/*.npz

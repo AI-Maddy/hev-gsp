@@ -1,0 +1,12 @@
+{
+  "struct_signed": 0.05558386716512961,
+  "struct_binary": 0.13487356232295905,
+  "rand_signed_mean": 0.19579108580690596,
+  "rand_signed_std": 0.02979481494187181,
+  "z_score": 4.7057590025416705,
+  "E_low25_struct": 0.7688735915765489,
+  "E_low25_rand": 0.2808122064787162,
+  "multilayer_signed": 0.047533672955227445,
+  "multilayer_rand_mean": 0.21914125512682303,
+  "multilayer_rand_std": 0.03721725796013813
+}

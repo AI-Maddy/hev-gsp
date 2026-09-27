@@ -1,0 +1,65 @@
+index,name,unit,layer,component,owner_or_attachment,nominal_mean,nominal_std
+0,v_veh,m/s,physical,vehicle,ESC,16.0454,10.3012
+1,a_long,m/s^2,physical,imu,ESC,0.00358397,0.517135
+2,a_lat,m/s^2,physical,imu,ESC,0.000763966,0.552731
+3,yaw_rate,deg/s,physical,imu,ESC,0.00906426,2.82281
+4,steer_angle,deg,physical,steering,EPS,0.109228,20.3119
+5,pedal_acc,%,physical,driver,ZC_FRONT,11.3395,14.5511
+6,w_FL,rad/s,physical,wheel_FL,ESC,52.1871,33.5388
+7,w_FR,rad/s,physical,wheel_FR,ESC,52.1881,33.5381
+8,w_RL,rad/s,physical,wheel_RL,ESC,51.6681,33.1682
+9,w_RR,rad/s,physical,wheel_RR,ESC,51.669,33.1673
+10,p_tire_FL,bar,physical,tire_FL,TPMS,2.4727,0.0484822
+11,p_tire_FR,bar,physical,tire_FR,TPMS,2.4727,0.0484822
+12,p_tire_RL,bar,physical,tire_RL,TPMS,2.45941,0.03966
+13,p_tire_RR,bar,physical,tire_RR,TPMS,2.45941,0.03966
+14,susp_travel_FL,mm,physical,suspension_FL,SCU,0.0347991,5.09699
+15,susp_travel_FR,mm,physical,suspension_FR,SCU,-0.0344018,5.13932
+16,susp_travel_RL,mm,physical,suspension_RL,SCU,-0.0471447,5.26742
+17,susp_travel_RR,mm,physical,suspension_RR,SCU,0.0466669,5.23574
+18,body_acc_FL,m/s^2 rms,physical,suspension_FL,SCU,0.532322,0.435594
+19,body_acc_FR,m/s^2 rms,physical,suspension_FR,SCU,0.533195,0.436561
+20,body_acc_RL,m/s^2 rms,physical,suspension_RL,SCU,0.679824,0.553122
+21,body_acc_RR,m/s^2 rms,physical,suspension_RR,SCU,0.678229,0.552189
+22,brake_pressure,bar,physical,brakes,ESC,1.80324,3.31465
+23,T_brake_F,degC,physical,brakes_front,ESC,20.5657,14.2688
+24,T_brake_R,degC,physical,brakes_rear,ESC,18.8232,15.0216
+25,n_eng,rpm,physical,engine,ECM,1006.26,831.296
+26,tq_eng,N m,physical,engine,ECM,45.8947,44.7875
+27,fuel_rate,g/s,physical,engine,ECM,0.537118,0.645576
+28,T_cool_eng,degC,physical,engine_cooling,ECM,63.7343,22.6398
+29,T_cat,degC,physical,exhaust,ECM,448.151,91.3746
+30,n_MG1,rpm,physical,mg1,PCU,-610.584,2429.68
+31,tq_MG1,N m,physical,mg1,PCU,-12.6721,12.1707
+32,n_MG2,rpm,physical,mg2,PCU,4291.74,2758.07
+33,tq_MG2,N m,physical,mg2,PCU,-1.42865,21.9716
+34,T_MG1,degC,physical,mg1,PCU,23.3882,16.6878
+35,T_MG2,degC,physical,mg2,PCU,25.2587,17.033
+36,T_inv,degC,physical,inverter,PCU,21.5315,16.5996
+37,I_batt,A,physical,battery,BMS,0.163017,25.1872
+38,V_batt,V,physical,battery,BMS,227.106,4.48416
+39,SOC,%,physical,battery,BMS,58.9786,6.34313
+40,T_batt,degC,physical,battery,BMS,18.798,15.871
+41,V_12,V,physical,dcdc,DCDC_ECU,14.0757,0.0383862
+42,I_dcdc,A,physical,dcdc,DCDC_ECU,31.0832,9.59656
+43,T_cool_edu,degC,physical,edu_cooling,TMS,19.1951,16.5259
+44,T_rad_out,degC,physical,engine_cooling,TMS,29.1727,26.9553
+45,T_cabin,degC,physical,cabin,CCU,20.284,10.228
+46,P_ac,W,physical,hvac,CCU,444.53,710.597
+47,ECM,ms,ee,cp_ecu,CANFD_F,0.837916,0.0440105
+48,PCU,ms,ee,cp_ecu,CANFD_F,0.814733,0.0471976
+49,ESC,ms,ee,cp_ecu,CANFD_F,0.636567,0.0280136
+50,EPS,ms,ee,cp_ecu,CANFD_F,0.627015,0.0306544
+51,DCDC_ECU,ms,ee,cp_ecu,CANFD_F,0.678832,0.0464996
+52,TMS,ms,ee,cp_ecu,CANFD_F,0.696937,0.0642966
+53,BMS,ms,ee,cp_ecu,CANFD_R,0.886636,0.0369485
+54,SCU,ms,ee,cp_ecu,CANFD_R,0.649652,0.0264514
+55,TPMS,ms,ee,cp_ecu,CANFD_R,0.88951,0.0430243
+56,CCU,ms,ee,cp_ecu,CANFD_R,1.04373,0.0400643
+57,ZC_FRONT,ms,ee,cp_zonal_gw,CANFD_F,0.0903343,0.00514974
+58,ZC_REAR,ms,ee,cp_zonal_gw,CANFD_R,0.0917746,0.00499436
+59,CVC,ms,ee,ap_machine,ETH_BB,0.798892,0.0234862
+60,TCU,ms,ee,ap_machine,ETH_BB,18.5292,5.19893
+61,CANFD_F,%,ee,bus,,24.9317,0.534233
+62,CANFD_R,%,ee,bus,,18.3348,0.233007
+63,ETH_BB,%,ee,bus,,29.0636,6.92253
