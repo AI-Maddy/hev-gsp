@@ -7,4 +7,6 @@ authors:
     given-names: Madhavan
 version: 1.0.0
 date-released: 2026-09-27
+license: CC-BY-4.0
+repository-code: "https://github.com/AI-Maddy/hev-gsp"
 keywords: [graph signal processing, hybrid electric vehicle, AUTOSAR, CAN FD, fault detection, dataset]

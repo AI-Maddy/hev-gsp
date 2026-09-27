@@ -43,7 +43,7 @@ The code, graph files, figures and results live in this repository. The dataset 
 
 ```bash
 pip install -r requirements.txt
-scripts/download_data.sh OWNER/REPO v1.0.0     # downloads dist/hev_gsp_*.h5 and verifies SHA256SUMS
+scripts/download_data.sh AI-Maddy/hev-gsp v1.0.0     # downloads dist/hev_gsp_*.h5 and verifies SHA256SUMS
 ```
 
 To rebuild everything from scratch instead:
@@ -218,3 +218,8 @@ Control and thermal edges are the hardest to recover.
 - **E/E layer.** It is a stylized frame-level simulation: CAN FD arbitration and COM timing are simulated, but CRCs are not computed and ECU software is not executed. The Adaptive side is modeled with CAPI's ARXML format and code generator; CAPI binaries are not run.
 - **Engine warm-up.** In EV-heavy low-speed driving the engine coolant warms slowly (as in real HEVs). Cold urban runs may not reach thermostat temperature within 20 min.
 - **Signal rates.** Suspension signals are 0.1 s window features (mean travel, RMS acceleration), not raw 400 Hz data.
+
+## Licence
+
+- Code: Apache License 2.0 (`LICENSE`).
+- Dataset, figures, results and model description files: CC BY 4.0 (`LICENSE-DATA.md`). Please cite using `CITATION.cff`.
