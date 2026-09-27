@@ -211,6 +211,17 @@ The graph neighbour regression predicts each node from its graph neighbours, wit
 
 Control and thermal edges are the hardest to recover.
 
+**Fleet learning and sensor self-healing** (`fleet_experiments.py`; results in `results/f1_federated.json` and `results/f2_self_healing.json`). Each of the 15 training runs is treated as one vehicle.
+
+| Graph detector training | Shared per vehicle | Mean AUC |
+|---|---|---|
+| local model, same operating condition | none | 0.821 |
+| local model, other condition | none | 0.496 |
+| FedAvg (ridge coefficients + moments) | 524 numbers | 0.740 |
+| FedGram (neighbour Gram blocks, equals central) | 2620 numbers | 0.763 |
+
+Replacing an isolated faulty sensor with its graph-neighbour estimate cuts wheel-speed dropout RMSE from 4.2–21 rad/s to 0.09–0.14 rad/s. It fails for a stuck slow thermal sensor, where kriging from all nodes works.
+
 ## Limitations
 
 - **Plant fidelity.** The plant is a control-oriented lumped-parameter model, not a validated replica of a production vehicle. Parameters are representative of published mid-size power-split HEVs.
