@@ -21,7 +21,7 @@ MK = ["o", "s", "^", "D", "v", "P"]
 LS = ["-", "--", "-.", ":", (0, (5, 1)), (0, (3, 1, 1, 1))]
 COL1, COL2 = 3.5, 7.16
 plt.rcParams.update({
-    "font.family": "serif", "font.serif": ["TeX Gyre Termes", "Liberation Serif", "DejaVu Serif"],
+    "font.family": "serif", "font.serif": ["Liberation Serif", "DejaVu Serif"],
     "mathtext.fontset": "stix", "font.size": 8, "axes.labelsize": 8, "axes.titlesize": 8,
     "legend.fontsize": 7, "xtick.labelsize": 7, "ytick.labelsize": 7,
     "axes.edgecolor": INK2, "axes.labelcolor": INK, "xtick.color": INK2, "ytick.color": INK2,
